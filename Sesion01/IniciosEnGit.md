@@ -14,8 +14,16 @@ Gestor de versiones para que nuestras aplicaciones se mantengan correctamente ad
 sudo apt install git -y
 ```
 
-## Configuración de git
+## Primeros pasos
+### Configuración inicial de git
+Cada que instalemos git deberemos configurarlo para que sepa quienes somos con nuestro usuario e email
 ```
-git config --global user.name "tuNombre"
+git config --global user.name "tuUsario"
 git config --global user.email "tuCorreo"
+```
+
+### Cómo clonar un repositorio
+Clonaremos un repositorio cada que necesitemos trabajar en un proyecto externo.
+```
+git clone <url_del_repositorio>
 ```
