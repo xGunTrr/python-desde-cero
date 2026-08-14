@@ -18,7 +18,7 @@ sudo apt install git -y
 ### Configuración inicial de git
 Cada que instalemos git deberemos configurarlo para que sepa quienes somos con nuestro usuario e email
 ```
-git config --global user.name "tuUsario"
+git config --global user.name "tuUsuario"
 git config --global user.email "tuCorreo"
 ```
 
@@ -26,4 +26,14 @@ git config --global user.email "tuCorreo"
 Clonaremos un repositorio cada que necesitemos trabajar en un proyecto externo.
 ```
 git clone <url_del_repositorio>
+```
+
+### Cómo subir mis archivos al github
+```
+git push origin main
+```
+
+### Cómo descargar los archivos desde github
+```
+git pull origin main
 ```
