@@ -1,8 +1,11 @@
-# ¿Qué es Git?
+# Informática desde cero
 
+## ¿Qué es Git?
 Gestor de versiones para que nuestras aplicaciones se mantengan correctamente administradas.
 
-## ¿Cómo instalar Git?
+## ¿Qué es GitHub?
+
+### ¿Cómo instalar Git?
 
 - Windows
 1. Entramos a la página oficial de git `https://git-scm.com/`
@@ -14,26 +17,26 @@ Gestor de versiones para que nuestras aplicaciones se mantengan correctamente ad
 sudo apt install git -y
 ```
 
-## Primeros pasos
-### Configuración inicial de git
+### Primeros pasos
+#### Configuración inicial de git
 Cada que instalemos git deberemos configurarlo para que sepa quienes somos con nuestro usuario e email
 ```
 git config --global user.name "tuUsuario"
 git config --global user.email "tuCorreo"
 ```
 
-### Cómo clonar un repositorio
+#### Cómo clonar un repositorio
 Clonaremos un repositorio cada que necesitemos trabajar en un proyecto externo.
 ```
 git clone <url_del_repositorio>
 ```
 
-### Cómo subir mis archivos al github
+#### Cómo subir mis archivos al github
 ```
 git push origin main
 ```
 
-### Cómo descargar los archivos desde github
+#### Cómo descargar los archivos desde github
 ```
 git pull origin main
 ```
