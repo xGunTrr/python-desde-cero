@@ -40,3 +40,24 @@ git push origin main
 ```
 git pull origin main
 ```
+
+#### Git add y Git commit
+Para revisar el estado de nuestro proyecto (archivos y directorios)
+```
+git status
+```
+
+Nos sirve para que nuestro archivo deje de ser un borrador y pase a ser parte del proyecto.
+```
+git add <nombre_archivo>
+```
+
+Nos sirve para crear una versión de nuestro código.
+```
+git commit -m <comentario>
+```
+
+Como revisar nuestro historial de código
+```
+git log
+```
